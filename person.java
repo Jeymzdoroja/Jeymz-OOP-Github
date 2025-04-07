@@ -2,28 +2,33 @@ public class person {
     private String name;
     private int id;
      
-    //CONSTRUCTOR
+    //Constructor
     public person(String name, int id) {
         this.name = name;
         this.id = id;
-        //METHOD CALLS
+        //Encapsulation getter and methods
     }
     public String getName() {
-        return this.name;
+        return 
+        
+        this.name;
     }
     public int getid() {
-        return this.id;
+        return 
+        
+        this.id;
     }
-    //DISPLAY METHOD
+    //Display Information
     public void displayinfo() {
         System.out.println("Name: " + this.name);
         System.out.println("ID: " + this.id);
     }
  
+    public class SchoolTest{
     public static void main(String[] args) {
-            student student = new student("Go, Miguel", 2024000, "1st Year");
-            teacher teacher = new teacher("Fabro Jr,  Junnie", 2024001, "1st Year Math");
-            staff staff = new staff("Pansit, Bato", 2024002, "Janitor");
+            student student = new student("James Harrey Doroja", 2025003, "1st Year");
+            teacher teacher = new teacher("Sr. Mendoza, Raquiren F.", 2024001, "1st Year OOP Adviser");
+            staff staff = new staff("Mr. Nash Cornejo", 2022098, "Registrar");
    
             System.out.println("Student Info:");
             student.displayinfo();
@@ -37,7 +42,7 @@ public class person {
             staff.displayinfo();
         }
    
-   
+    }
  
 }
  
