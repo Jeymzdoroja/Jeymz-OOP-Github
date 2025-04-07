@@ -28,7 +28,7 @@ public class person {
     public static void main(String[] args) {
             student student = new student("James Harrey Doroja", 2025003, "1st Year");
             teacher teacher = new teacher("Sr. Mendoza, Raquiren F.", 2024001, " Object Oriental Programming Adviser");
-            staff staff = new staff("Mr. Nash Cornejo", 2022098, "Registrar");
+            staff staff = new staff("Mr. Squarepants", 2022098, "Registrar");
    
             System.out.println("Student Info:");
             student.displayinfo();
